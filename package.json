@@ -1,0 +1,23 @@
+{
+  "name": "cesi-projet-api",
+  "version": "1.0.0",
+  "description": "Projet API Cesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastien-brnt/cesi-projet-api.git"
+  },
+  "author": "Sébastien Burnet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastien-brnt/cesi-projet-api/issues"
+  },
+  "homepage": "https://github.com/sebastien-brnt/cesi-projet-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
