@@ -30,12 +30,11 @@ const contacts = [
 ];
 
 app.get("/", function (req, res) {
-  res.send("Hello EPSI");
+  res.send("Hello world !");
 });
 
 app.get("/api/contacts", function (req, res) {
-  // res.send(contacts);
   res.status(200).json(contacts);
 });
 
-app.listen(3002);
+module.exports = app;
