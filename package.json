@@ -4,8 +4,8 @@
   "description": "Projet API Cesi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon index.js"
+    "test": "jest tests/*.test.js --coverage",
+    "serve": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.3"
+    "jest": "^29.3.1",
+    "prettier": "^2.8.3",
+    "supertest": "^6.3.3"
   }
 }

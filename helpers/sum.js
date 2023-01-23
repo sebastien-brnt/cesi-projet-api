@@ -6,4 +6,4 @@ function sum(number1, number2) {
   return "Erreur : Une des valeurs renseignées n'est pas un nombre";
 }
 
-module.export = sum;
+module.exports = sum;
